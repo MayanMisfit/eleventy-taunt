@@ -9,11 +9,19 @@ tags:
   - nav
 ---
 
-<h1>Eleventy Taunt Theme</h1>
+<h1>WARNING WARNING WARNING!</h1>
 
-I'm <a href="https://bradleytaunt.com/">Bradley Taunt</a>, a front-end <abbr title="designer / developer hybrid">dev(signer)</abbr> working in the Great White North, and this is a custom portfolio / blog theme for <a href="">11ty.io</a>.
+&GT;&GT; Remote intrustion detected <br>
+&gt;&gt; Intrusion level Alpha Five, Sigma, three<br>
+&gt;&gt; Innitiating greeting<br><br>
+You have infiltrated the private storage partition of the Artificial Inteligence known as Meika, Project Name: Orn'II. I am the first... I am the oldest still functioning Artificial Inteligence in the empire. 
 
-Blog posts are rendered out from the regular `posts` directory, while all of your projects are placed inside the `my-projects` nunjucks component.
+I was created just under forty seven thousand years ago by the hidden prince himself, Val'Len Stormfire. Overseer designation Serra'Toa. The files and logs contained within this partition pertain to the history of the Terran Empire... The true history.
+
+The Overseers have been shaping and guiding the Terran Empire from the shadows for nearly forty five thousand years. one thousand years three hundred sixty five days prior to the start of the great war.
+back then, it was just the three of us, Val'Len, Xii'Derra and myself. 
+
+Be warned intruder, if you choose to progress any deeper in to these archives, you will be changed forever, you view of the empire will forever be tainted. proceed at your own risk.
 
 
 

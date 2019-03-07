@@ -6,30 +6,11 @@ section: home
 <div class="container" aria-label="introduction">
     <div class="inner-container">
         {{ layoutContent | safe }}
+
+  <div class="left"> &gt;&gt; <a href="/posts"> Archives &#x2192;</a></div>
+
     </div>
+  
 </div>
 
-{% set postslist = collections.postsLatest %}
-{% include "components/postslist.njk" %}
 
-<div class="container" aria-label="projects">
-    <div class="inner-container">
-        <h2 class="no-margin">Open source projects</h2>
-        <p>As a huge advocate for open source software, I try to give back to the community by releasing my own open source projects.</p>
-        {% include "components/my-projects.njk" %}
-    </div>
-</div>
-
-<div class="container" aria-label="contact links">
-    <div class="inner-container">
-        <h2 class="no-margin">Contact</h2>
-        <nav aria-label="social navigation">
-            <ul>
-                <li><a href="https://dribbble.com/hustlepizza">Dribbble</a></li>
-                <li><a href="https://github.com/bradleytaunt">GitHub</a></li>
-                <li><a href="https://codepen.io/bradleytaunt/">CodePen</a></li>
-                <li><a href="https://twitter.com/bradtaunt">Twitter</a></li>
-            </ul>
-        </nav>
-    </div>
-</div>

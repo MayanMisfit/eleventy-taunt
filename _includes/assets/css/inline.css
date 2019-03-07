@@ -1,10 +1,10 @@
 :root {
 	--white: white;
-	--brand-color: rgb(235, 237, 242);
-    --link-color: #1a0dab;
-    --visited-link-color: #609;
-    --text-color: #2d2d2d;
-    --highlight-color: #ffcd60;
+	--brand-color: #333232;
+    --link-color: #FFDE03;
+    --visited-link-color: #FFDE03;
+    --text-color: #24CC44;
+    --highlight-color: ;
 }
 
 *, *:before, *:after {
@@ -117,7 +117,8 @@ nav ul li {
 
 html,
 body {
-	color: var(--text-color);
+    color: var(--text-color);
+    background: #000000;
 }
 
 p,ul,ol,h1,h2,h3,h4,h5,h6 {
@@ -126,19 +127,17 @@ p,ul,ol,h1,h2,h3,h4,h5,h6 {
 
 a,a:visited {
 	font-weight: bold;
-    text-decoration: underline;
+    text-decoration: none;
     transition: .1s ease all;
 }
 a {
     color: var(--link-color);
 }
 a:visited {
-    color: var(--visited-link-color);
+    color: var(--link-color);
 }
 a:hover {
-    background: var(--highlight-color);
-    box-shadow: 0 0 0 4px var(--highlight-color);
-    color: var(--text-color);
+    color: var(--link-color);
 	text-decoration: none;
 }
 
@@ -146,14 +145,17 @@ a:hover {
 *********************************************************************************************************************/
 .container {
     max-width: 1400px;
-	width: 100%;
+    width: 100%;
 }
 
 .col-container {
     display: flex;
+    background: #000000;
     flex-direction: row;
     flex-wrap: wrap;
     padding: 40px 0 0;
+    justify-content: center;
+    align-content: center;
 }
 .col-container.margin-negative {
     margin-bottom: -40px;
@@ -165,13 +167,14 @@ a:hover {
 	display: flex;
 	flex-direction: column;
     padding: 80px 50px 80px 100px;
+    align-items:  center;
 }
 
 .col-item, .col-item:visited {
-    background: #f0f4f5;
+    background: #000000;
     border: 1px solid #f0f4f5;
     box-shadow: 0 4px 0 0 #D8DDE0;
-    color: var(--text-color);
+    color: var(--link-color);
     cursor: pointer;
     margin: 0 20px 20px 0;
     padding: 25px;
@@ -186,10 +189,10 @@ a:hover {
 .col-item p {
     font-weight: normal;
     margin: 0;
+
 }
 .col-item:hover {
-    background: white;
-    box-shadow: 0 0 0 4px var(--highlight-color);
+    background: #000000;
     text-decoration: none;
 }
 .col-item:hover h3 {
@@ -245,6 +248,11 @@ a:hover {
     }
 }
 
+.left
+{
+    float: left !important;
+}
+
 /**
  * a11y-dark theme for JavaScript, CSS, and HTML
  * Based on the okaidia theme: https://github.com/PrismJS/prism/blob/gh-pages/themes/prism-okaidia.css
@@ -254,7 +262,7 @@ a:hover {
  code[class*="language-"],
  pre[class*="language-"] {
      color: #f8f8f2;
-     background: none;
+     background: #333232;
      font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
      max-width: 600px;
      text-align: left;
