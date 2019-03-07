@@ -148,6 +148,8 @@ a:hover {
     width: 100%;
     justify-content: center;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .col-container {
@@ -171,7 +173,7 @@ a:hover {
 	display: flex;
 	flex-direction: column;
     padding: 80px 50px 80px 100px;
-    align-items:  center;
+    align-items:  flex-start;
 }
 
 .col-item, .col-item:visited {
