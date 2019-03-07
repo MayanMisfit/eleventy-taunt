@@ -173,7 +173,7 @@ a:hover {
 	display: flex;
 	flex-direction: column;
     padding: 80px 50px 80px 100px;
-    align-items:  flex-start;
+    align-items:  center;
 }
 
 .col-item, .col-item:visited {
