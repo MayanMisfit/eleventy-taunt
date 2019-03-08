@@ -147,7 +147,7 @@ a:hover {
     max-width: 900px;
     width: 100%;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     margin-left: auto;
     margin-right: auto;
 }
@@ -160,8 +160,6 @@ a:hover {
     padding: 40px 0 0;
     margin-left: auto;
     margin-right: auto;
-    justify-content: center;
-    align-content: center;
 }
 .col-container.margin-negative {
     margin-bottom: -40px;
@@ -173,8 +171,9 @@ a:hover {
 	display: flex;
 	flex-direction: column;
     padding: 80px 50px 80px 100px;
-    align-items:  center;
-    justify-content: flex-start;
+    align-items:  flex-start;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .col-item, .col-item:visited {
@@ -196,6 +195,7 @@ a:hover {
 .col-item p {
     font-weight: normal;
     margin: 0;
+    text-align: center;
 
 }
 .col-item:hover {
