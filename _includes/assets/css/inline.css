@@ -195,7 +195,7 @@ a:hover {
 .col-item p {
     font-weight: normal;
     margin: 0;
-    text-align: center;
+    text-align: left;
 
 }
 .col-item:hover {
