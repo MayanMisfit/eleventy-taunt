@@ -7,24 +7,6 @@
 
         {{ layoutContent | safe }}
 
-        <div class="container">
-            <div class="inner-container">
-                <h2 class="no-margin">Recent posts</h2>
-                <div class="col-container">
-                    {% set postslist = collections.postsLatest %}
-                        {% for post in postslist | reverse %}
-                        <a href="{{ post.url | url }}" class="col-item double-width">
-                            <p><small>{{ post.data.date | readableDate }}</small></p>
-                            <h3>{{ post.data.title }}</h3>
-                        </a>
-                        {% endfor %}
-                </div>
-                <h3><a href="/posts">Read all posts &#x2192;</a></h3>
-            </div>
-        </div>
-
-        {% include "components/footer.njk" %}
-
     </body>
 
 </html>

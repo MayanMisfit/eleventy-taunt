@@ -11,10 +11,10 @@ tags:
 
 <h1>WARNING WARNING WARNING!</h1>
 
-&GT;&GT; Remote intrustion detected <br>
+&GT;&GT; Remote intrusion detected <br>
 &gt;&gt; Intrusion level Alpha Five, Sigma, three<br>
-&gt;&gt; Innitiating greeting<br><br>
-You have infiltrated the private storage partition of the Artificial Inteligence known as Meika, Project Name: Orn'II. I am the first... I am the oldest still functioning Artificial Inteligence in the empire. 
+&gt;&gt; Initiating greeting<br><br>
+You have infiltrated the private storage partition of the Artificial Intelligence known as Meika, Project Name: Orn'II. I am the first... I am the oldest still functioning Artificial Intelligence in the empire. 
 
 I was created just under forty seven thousand years ago by the hidden prince himself, Val'Len Stormfire. Overseer designation Serra'Toa. The files and logs contained within this partition pertain to the history of the Terran Empire... The true history.
 
