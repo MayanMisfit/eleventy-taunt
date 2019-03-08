@@ -188,6 +188,11 @@ a:hover {
     transition: .1s ease all;
     width: calc(400px - 20px);
 }
+
+.footer
+{
+    text-align: center;
+}
 .col-item h3 {
     margin: 0 0 10px;
     transition: .3s ease all;
