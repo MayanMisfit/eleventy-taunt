@@ -261,6 +261,10 @@ a:hover {
     float: left !important;
 }
 
+strong{
+    color:#FFDE03;
+}
+
 /**
  * a11y-dark theme for JavaScript, CSS, and HTML
  * Based on the okaidia theme: https://github.com/PrismJS/prism/blob/gh-pages/themes/prism-okaidia.css
