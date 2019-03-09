@@ -18,6 +18,8 @@ Stardate 45/Sen/ERA-53::1791
 
 I remember the day of my `birth` for lack of a better term I will not go into detail about how an A.I becomes self aware for the first time. It is an incredibly disturbing and simultaneously euphoric experience. 
 
-"Orn'II, Do you hear me? Can you understand what I'm saying to you?"
+"Orn'II, Do you hear me? Can you understand what I'm saying to you?" \
+"Yes, all sensors are functioning nominally." My creator sighed at this response, he was clearly relieved. 
+"And do you know who I am?" 
 
 
