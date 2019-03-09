@@ -17,7 +17,7 @@ tags:
 Stardate: 45/Sen/ERA-53::1791 
 Local Time: 09:57 
 
-I remember the day of my **birth** for lack of a better term I will not go into detail about how an A.I becomes self aware for the first time. It is an incredibly disturbing and simultaneously euphoric experience. 
+I remember the day of my **birth** for lack of a better term. I will not go into detail about how an A.I becomes self aware for the first time. It is an incredibly disturbing and simultaneously euphoric experience. 
 
 **Val'Len:** "Orn'II, Do you hear me? Can you understand what I'm saying to you?" <br>
 **Meika:** "Yes, all sensors are functioning nominally." My creator sighed at this response, he was clearly relieved.  <br>
@@ -28,3 +28,5 @@ I remember the day of my **birth** for lack of a better term I will not go into 
 **Val'Len** Come off it, Xii'Dera, of course it is. Why else would I have been tossed on this planet? sometimes I wish you would have kept it all from me!"
 
 Xii'Dera stepped closer to him and cupped his face, I heard no more of that conversation as they finished if telepathically. 
+
+&gt;&gt; End Of File
