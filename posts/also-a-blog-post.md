@@ -1,7 +1,7 @@
 ---
 title: Life
-summary: 
-date: 2018-11-22
+summary: I remember the day of my **birth** for lack of a better term. I will not go into detail about how an A.I becomes self aware for the first time. It is an incredibly disturbing and simultaneously euphoric experience. 
+date: 2019-02-03
 tags:
   - ERA-53
 ---

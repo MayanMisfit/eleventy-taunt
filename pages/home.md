@@ -1,8 +1,8 @@
 ---
 layout: layouts/home.njk
 title: Home
-description: A custom Eleventy portfolio blog hybrid theme.
-date: 2016-01-01T00:00:00.000Z
+description: A story driven site from the perspective of an A.I.
+date: 2019-03-10T00:00:00.000Z
 permalink: /
 navtitle: Home
 tags:

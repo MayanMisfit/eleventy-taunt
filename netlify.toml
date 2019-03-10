@@ -3,7 +3,7 @@
   command = "eleventy"
 
 [[redirects]]
-  from = "https://musing-noyce-943429.netlify.com/*"
-  to = "https://bradleytaunt.com/:splat"
+  from = "https://mystifying-bell-12430d.netlify.com/*"
+  to = "https://www.digitalmisfit.uk/:splat"
   status = 301
   force = true
