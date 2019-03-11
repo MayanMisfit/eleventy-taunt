@@ -73,10 +73,10 @@ figure {
 }
 
 blockquote {
-    border-left: 5px solid var(--brand-color);
-    margin-bottom: 1.5rem;
-    margin-top: 1.5rem;
-    padding: 1rem 1rem 0;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    padding: .5rem .5rem 0;
+    font-style: oblique;
 }
 
 table {
@@ -104,6 +104,14 @@ nav ul li {
     margin: 0 15px 0 0;
 }
 
+ol {
+    display: block;
+    list-style-type: decimal;
+}
+
+
+
+
 .marginnote {
     display: block;
 }
@@ -125,8 +133,11 @@ p,ul,ol,h1,h2,h3,h4,h5,h6 {
     max-width: 600px;
 }
 
+h3{
+    font-size: 18px;
+}
+
 a,a:visited {
-	font-weight: bold;
     text-decoration: none;
     transition: .1s ease all;
 }
@@ -140,7 +151,6 @@ a:hover {
     color: var(--link-color);
 	text-decoration: none;
 }
-
 /* Containers
 *********************************************************************************************************************/
 .container {
@@ -157,9 +167,8 @@ a:hover {
     background: #000000;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 40px 0 0;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 0px 0 0;
+    
 }
 .col-container.margin-negative {
     margin-bottom: -40px;
@@ -179,8 +188,7 @@ a:hover {
 .col-item, .col-item:visited {
     background: #000000;
     color: var(--link-color);
-    margin: 0 20px 20px 0;
-    padding: 25px;
+    padding: 5px;
     text-decoration: none;
     width: calc(400px - 20px);
 }

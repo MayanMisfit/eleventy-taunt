@@ -9,17 +9,18 @@ section: page
     </div>
 
     <div class="inner-container">
-        <h1>{{ title }}</h1>
-        <p>{{ description }}</p>
-
-        {% set postslist = collections.posts %}
+        <h3>{{ title }}</h3>
+          {% set postslist = collections.posts %}
         <div class="col-container">
-            {% for post in postslist | reverse %}
-            <a href="{{ post.url | url }}" class="col-item double-width">
-                <p><small>{{ post.data.date | readableDate }}</small></p>
-                <h3>{{ post.data.title }}</h3>
-            </a>
+          <ol>
+            {% for post in postslist %}
+          
+            <li>
+            <a href="{{ post.url | url }}" class="col-item">&gt;&gt; {{ post.data.title }} &#x2192;</a>
+            </li>
+            
             {% endfor %}
+            </ol>
         </div>
 
         {{ layoutContent | safe }}

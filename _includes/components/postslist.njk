@@ -2,7 +2,7 @@
     <h2 class="no-margin">Archives</h2>
     
     <div class="col-container">
-        {% for post in postslist | reverse %}
+        {% for post in postslist %}
         <a href="{{ post.url | url }}" class="col-item double-width">
             <p><small>{{ post.data.date | readableDate }}</small></p>
             <h3>{{ post.data.title }}</h3>
