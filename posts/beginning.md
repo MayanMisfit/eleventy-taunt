@@ -16,8 +16,10 @@ tags:
 Stardate: 28/Rit/ERA-53::1801 <br>
 Local Time: 19:10
 
->The older Val'len grew, the more erratic his thought train, he often stated that his brain moved at 100 ideas per second. <br>
+>The older Val'len grew, the more erratic his thought train, he often stated that his brain moved at 100 ideas per second. 
+
 >It was ten years after my creation that everything really kicked off. Val'len was running around the Den like he usually did; from one room to another, gathering parts and cables, power cores and monitors. that was the best part about taking over an abandoned military bunker. there was always plenty of technology lying around. 
+
 >Xii'dera, of course grew tired of all the ruckus and eventually joined us in the old control room where his royal not so princelyness was feverishly running from console to console and powering them up. by the time Xii'dera had arrived Val'len was so distracted that he didn't notice. I have to admit that I found his yelp of shock, highly amusing. 
 
 **Val'len**: Bloody Hell Xii, are you trying to give me a heart attack?<br>

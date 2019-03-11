@@ -73,10 +73,12 @@ figure {
 }
 
 blockquote {
-    margin-bottom: 0.5rem;
-    margin-top: 0.5rem;
-    padding: .5rem .5rem 0;
     font-style: oblique;
+    display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: 1em;
+    margin-inline-end: 5px;
 }
 
 table {
@@ -207,6 +209,16 @@ a:hover {
     text-align: left;
 
 }
+
+p
+{
+    display: block;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
 .col-item:hover {
     background: #000000;
     text-decoration: none;
