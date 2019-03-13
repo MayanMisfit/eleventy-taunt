@@ -62,7 +62,8 @@ abbr {
 }
 
 code {
-	background: var(--brand-color);
+    color: #67EFB8;
+    font-style: oblique;
 }
 pre code {
 	background: none;
@@ -74,6 +75,7 @@ figure {
 
 blockquote {
     font-style: oblique;
+    color: #67EFB8;
     display: block;
     margin-block-start: 0.5em;
     margin-block-end: 0.5em;
@@ -92,25 +94,24 @@ table tbody th {
 	font-weight: normal;
 }
 
-nav,
-nav h3 {
-	margin: 0;
-}
-nav ul {
-    list-style: none;
-    margin: 40px 0 0 0;
+/* Nav */
+.nav {
     padding: 0;
-}
-nav ul li {
+    list-style: none;
+    float: right;
+    margin-left: auto;
+  }
+  .nav-item {
     display: inline-block;
-    margin: 0 15px 0 0;
-}
-
-ol {
-    display: block;
-    list-style-type: decimal;
-}
-
+    margin-right: 1em;
+  }
+  .nav-item a[href]:not(:hover) {
+    text-decoration: none;
+  }
+  .nav-item-active {
+    font-weight: 700;
+    
+  }
 
 
 
@@ -447,4 +448,28 @@ strong{
      }
  }
 
-
+/* The alert message box */
+.alert {
+    padding: 20px;
+    background-color: #2196F3; /* blue */
+    color: white;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  /* The close button */
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: black;
+  }

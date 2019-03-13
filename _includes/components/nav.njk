@@ -1,1 +1,10 @@
-<div class="nav" role="heading" aria-level="1"><h3><a href="/">{{ metadata.title }}</a></h3></div>
+
+
+  <ul class="nav">
+        {%- for nav in collections.nav | reverse -%}
+        <li class="nav-item{% if nav.url == page.url %} nav-item-active{% endif %}"><a href="{{ nav.url | url }}">{{ nav.data.navtitle }}</a></li>
+        {%- endfor -%}
+      </ul>
+
+
+
