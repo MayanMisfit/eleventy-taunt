@@ -16,7 +16,7 @@ tags:
 Stardate: 18/Rallan/ERA-53::1801 <br>
 Local Time: 13:05
 
->Vel'len Had decided to wait a few weeks before powering up the arc-net node, not that he had much of a choice. Xii'dera was watching him like us like a hawk, until she had completed her audit of our code. But eventually she came around and agreed that it would be safe enough. 
+>Vel'len Had decided to wait a few weeks before powering up the arc-net node, not that he had much of a choice. Xii'dera was watching us like a hawk, until she had completed her audit of our code. But eventually she came around and agreed that it would be safe enough. 
 
 >Val'len was sitting at a desk with the disassembled components of a wrist console. Every now and then he would look up at Xii'dera and stare at her with a rather strange look. I found out much later what that look actually meant. 
 
