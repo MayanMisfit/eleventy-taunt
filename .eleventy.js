@@ -2,8 +2,14 @@ const { DateTime } = require("luxon");
 const CleanCSS = require("clean-css");
 const UglifyJS = require("uglify-js");
 const htmlmin = require("html-minifier");
+const pluginRss = require("@11ty/eleventy-plugin-rss");
+
+
 
 module.exports = function (eleventyConfig) {
+
+  eleventyConfig.addPlugin(pluginRss);
+
 
   eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
 
@@ -101,3 +107,5 @@ module.exports = function (eleventyConfig) {
     }
   };
 };
+
+ 
